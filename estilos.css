@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playpen+Sans:wght@100;300;600&display=swap');
 
 :root{
    --titulo:  4.4rem;
-   --subtitulo: 2.8rem;
+   --subtitulo: 2.4rem;
    --parrafos: 2rem;
    --tituloletra: 'Parisienne', cursive;
+   --cuerpo: 'Playpen Sans', cursive;
    
 }
 
@@ -15,10 +16,21 @@
 }
 html{
     font-size: 62.5%;
+    font-family: var(--cuerpo);
 }
-
+.fondo{
+    position: absolute;
+    left:0;
+    top:0;
+    background-image: url('./media/fondos/fondo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .1;
+    width: 100%;
+    height: 100%;
+}
 .bienvenida{
-    background-color: azure;
     text-align: center;
 }
 .bannerInicio{
@@ -29,6 +41,7 @@ html{
     aspect-ratio: 1/1;
     border-radius: 15%;
     object-fit: cover;
+    display: none;
 }
 h1{
     font-size: var(--titulo);
@@ -42,7 +55,7 @@ h3{
     font-size: 2.8rem;
 }
 p{
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .link{
     font-size: var(--parrafos);

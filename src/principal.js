@@ -10,10 +10,10 @@ const imgPrincipal = document.createElement("img")
     imgPrincipal.alt = "Logo empresa"
 const acotacion = document.createElement("p")
     acotacion.classList.add("acotacion")
-const mensajeBienvenida = document.createElement("h2")
+const mensajeBienvenida = document.createElement("p")
 const contTituloPrincipal = document.createTextNode("Modista Miranda")
 const tacotacion = document.createTextNode("Intimates")
-const contMensajedeBienvenida = document.createTextNode("Queremos que disfrutes nuestros productos, como nadie lo ha hecho nunca.")
+const contMensajedeBienvenida = document.createTextNode("Queremos que disfrutes nuestros productos, como nadie lo ha hecho nunca. Recuerda que podemos fabricar el modelo que tú busques, quieras o si quieres que te lo diseñemos especialmente para ti.")
 
 tituloPrincipal.appendChild(contTituloPrincipal)
 acotacion.appendChild(tacotacion)
