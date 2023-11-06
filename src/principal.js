@@ -24,18 +24,6 @@ divInicio.appendChild(tituloPrincipal)
 bienvenida.appendChild(acotacion)
 bienvenida.appendChild(mensajeBienvenida)
 
-//////
-
-const botonLenceria = document.createElement("div")
-        botonLenceria.classList.add("link")
-
-
-
-const textoBotonLenceria = document.createTextNode("Lencería")
-
-botonLenceria.appendChild(textoBotonLenceria)
-direcciones.appendChild(botonLenceria)
-
 ///////
 const cajaContacto = document.createElement("div")
 const h3contacto = document.createElement("h3")

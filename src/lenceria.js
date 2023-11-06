@@ -12,5 +12,3 @@ class Modelo{
 let modelol1 = new Modelo(
     "Blanco", "alguna","tela"
 )
-
-lenceria.innerHTML += `${modelol1.modelo} esto va aquí`
