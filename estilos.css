@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
 :root{
    --titulo:  4.4rem;
-   --subtitulo: 4rem
+   --subtitulo: 2.8rem;
+   --parrafos: 2rem;
+   --tituloletra: 'Parisienne', cursive;
+   
 }
 
 *{
@@ -11,19 +16,52 @@
 html{
     font-size: 62.5%;
 }
-#favi{
-    border-radius: 50%;
-    width: 16px;
-    height: 16px;
-}
+
 .bienvenida{
     background-color: azure;
     text-align: center;
 }
+.bannerInicio{
+    display: inline-flex;
+}
+.bannerInicio img{
+    width: 15%;
+    aspect-ratio: 1/1;
+    border-radius: 15%;
+    object-fit: cover;
+}
 h1{
     font-size: var(--titulo);
     font-weight: bold;
+    font-family: var(--tituloletra);
 }
 h2{
     font-size: var(--subtitulo);
+}
+h3{
+    font-size: 2.8rem;
+}
+p{
+    font-size: 2rem;
+}
+.link{
+    font-size: var(--parrafos);
+    text-align: center;
+    margin: 15px auto;
+}
+.lenceria{
+    font-size: var(--parrafos);
+}
+.acotacion{
+    font-size: 2.4rem;
+}
+.contacto{
+    text-align: center;
+}
+
+.contacto h3{
+    font-size: 2.4rem;
+}
+.contacto p{
+    font-size: 1.6rem;
 }
