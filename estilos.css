@@ -1,5 +1,29 @@
+:root{
+   --titulo:  4.4rem;
+   --subtitulo: 4rem
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     border: 0;
+}
+html{
+    font-size: 62.5%;
+}
+#favi{
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+.bienvenida{
+    background-color: azure;
+    text-align: center;
+}
+h1{
+    font-size: var(--titulo);
+    font-weight: bold;
+}
+h2{
+    font-size: var(--subtitulo);
 }
