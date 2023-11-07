@@ -5,6 +5,7 @@ const contacto = document.querySelector('.contacto')
 const divInicio = document.createElement("div")
     divInicio.classList.add("bannerInicio")
 const tituloPrincipal = document.createElement("h1")
+const linea = document.createElement("div")
 const imgPrincipal = document.createElement("img")
     imgPrincipal.src = "../media/logo/logo.png"
     imgPrincipal.alt = "Logo empresa"
@@ -21,7 +22,8 @@ mensajeBienvenida.appendChild(contMensajedeBienvenida)
 bienvenida.appendChild(divInicio)
 divInicio.appendChild(imgPrincipal)
 divInicio.appendChild(tituloPrincipal)
-bienvenida.appendChild(acotacion)
+divInicio.appendChild(linea)
+divInicio.appendChild(acotacion)
 bienvenida.appendChild(mensajeBienvenida)
 
 ///////
