@@ -27,6 +27,16 @@ divInicio.appendChild(acotacion)
 bienvenida.appendChild(mensajeBienvenida)
 
 ///////
+const botonl = document.createElement("a")
+    botonl.href = "../lenceria.html"
+    botonl.textContent = "Lencería"
+const tbotonl = document.createElement("p")
+
+direcciones.appendChild(botonl)
+
+
+
+///////
 const cajaContacto = document.createElement("div")
 const h3contacto = document.createElement("h3")
 const pcontacto = document.createElement("p")

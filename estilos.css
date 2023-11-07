@@ -52,10 +52,10 @@ html{
 }
 .bannerInicio div{
     width: 70%;
-    height: 2px;
+    height: .15px;
     border-radius: 50%;
-    border: solid white 1px;
-    margin: 2px auto;
+    border: solid white .1px;
+    margin: 1px auto;
 }
 h1{
     font-size: var(--titulo);
@@ -69,6 +69,13 @@ h2{
 }
 h3{
     font-size: 2.8rem;
+}
+h4{
+    font-size: 2.4rem;
+}
+h5{
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 p{
     font-size: 1.6rem;
@@ -84,15 +91,24 @@ p{
 .acotacion{
     font-size: 2.4rem;
 }
+.direcciones{
+    text-align: center;
+    margin: 10px auto;
+    width: 50%;
+    background-color: black;
+    border-radius: 16px;
+}
+.direcciones a{
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+}
 .contacto{
     text-align: center;
 }
 
 .contacto h3{
     font-size: 2.4rem;
-}
-.contacto p{
-    font-size: 1.6rem;
 }
 .modelo{
     text-align: center;
@@ -104,4 +120,24 @@ p{
 ul{
     text-decoration: none;
     list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav li{
+    text-align: center;
+    margin: 10px auto;
+    width: 50%;
+    background-color: black;
+    border-radius: 16px;
+    
+}
+.detalles{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.detalles p{
+    font-size: 1.2rem;
 }
