@@ -113,10 +113,7 @@ p{
 .modelo{
     text-align: center;
 }
-.modelo img{
-    width: 50%;
-    border-radius: 15px;
-}
+
 ul{
     text-decoration: none;
     list-style: none;
@@ -140,4 +137,34 @@ nav li{
 }
 .detalles p{
     font-size: 1.2rem;
+}
+.caja{
+    overflow-x: scroll;
+}
+.galeria{
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.galeria img{
+    width: 385px;
+    aspect-ratio: 1/1;
+    margin: 0 20px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+.contenedorVistaPrevia{
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+    height: 80px;
+    gap: 2px;
+    justify-content: center;
+    margin: 5px auto;
+}
+.contenedorVistaPrevia img{
+    border-radius: 12px;
+    object-fit: cover;
+    margin: 0 5px;
 }
