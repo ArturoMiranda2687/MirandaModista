@@ -117,7 +117,6 @@ function cargarProductoDiferido(index) {
   if (index < productos.length) {
     var producto = productos[index];
 
-
     var productoElement = document.createElement("div");
     productoElement.classList.add("modelo")
     productoElement.innerHTML = `
@@ -167,7 +166,9 @@ function cargarProductoDiferido(index) {
     var galeriaElement = productoElement.querySelector(".galeria");
     galeriaElement.style.width = numImagenes * 100 + "%";
   
-    lenceria.appendChild(productoElement); setTimeout(function () {
+    lenceria.appendChild(productoElement);
+    // Añade un retraso de 500 milisegundos (0.5 segundos) antes de cargar el siguiente producto
+    setTimeout(function () {
       cargarProductoDiferido(index + 1);
     }, 500); // 500 ms de retraso entre la carga de cada producto
   }
