@@ -32,8 +32,53 @@ let modelol1 = new Modelo({
     precio:"$30.oo mxn",
     precio2:"3 x 80.oo mxn"
 })
+let modelol2 = new Modelo({
+  modelo:"Tanga blanca",
+  imagen1: "./media/lenceria/tb1a.png",
+  imagen2: "./media/lenceria/tb1b.png",
+  imagen3: "",
+  imagen4: "",
+  imagen5: "",
+  imagen6: "",
+  descripcion: "Este modelo tiene resorte ornamentado que asegura mayor resistencia. El compuesto es de mesh y el puente de algodón para cuidar la higiene femenina en todo momento",
+  talla:"S | M | G",
+  tela:"Mesh",
+  tela2:"Algoón",
+  precio:"$30.oo mxn",
+  precio2:"3 x 80.oo mxn"
+})
+let modelol3 = new Modelo({
+  modelo:"Tanga rosa",
+  imagen1: "./media/lenceria/tr1a.png",
+  imagen2: "./media/lenceria/tr1b.png",
+  imagen3: "",
+  imagen4: "",
+  imagen5: "",
+  imagen6: "",
+  descripcion: "Este modelo tiene resorte ornamentado que asegura mayor resistencia. El compuesto es de mesh y el puente de algodón para cuidar la higiene femenina en todo momento",
+  talla:"S | M | G",
+  tela:"Lycra",
+  tela2:"Algoón",
+  precio:"$30.oo mxn",
+  precio2:"3 x 80.oo mxn"
+})
+let modelol4 = new Modelo({
+  modelo:"Tanga negra",
+  imagen1: "./media/lenceria/tn1a.png",
+  imagen2: "./media/lenceria/tn1b.png",
+  imagen3: "./media/lenceria/tn1c.png",
+  imagen4: "",
+  imagen5: "",
+  imagen6: "",
+  descripcion: "Este modelo tiene resorte ornamentado que asegura mayor resistencia. El compuesto es de mesh y el puente de algodón para cuidar la higiene femenina en todo momento",
+  talla:"S | M | G",
+  tela:"Mesh",
+  tela2:"Algoón",
+  precio:"$30.oo mxn",
+  precio2:"3 x 80.oo mxn"
+})
 
-var productos =[modelol1]
+var productos =[modelol1,modelol2,modelol3,modelol4]
 
 
 productos.forEach(function(producto) {

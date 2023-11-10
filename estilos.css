@@ -147,12 +147,13 @@ nav li{
     
 }
 .galeria img{
-    width: 80%;
+    width: 340px;
     aspect-ratio: 1/1;
     margin: 0 auto;
     object-fit: cover;
     object-position: center;
     border-radius: 15px;
+    gap: 5px;
 }
 .contenedorVistaPrevia{
     display: flex;
