@@ -94,9 +94,7 @@ p{
 .direcciones{
     text-align: center;
     margin: 10px auto;
-    width: 50%;
-    background-color: black;
-    border-radius: 16px;
+    
 }
 .direcciones a{
     font-size: 1.6rem;
@@ -168,4 +166,11 @@ nav li{
     border-radius: 12px;
     object-fit: cover;
     margin: 0 5px;
+}
+.botpri{
+    margin: 10px auto;
+    width: 50%;
+    background-color: black;
+    border-radius: 16px;
+    
 }

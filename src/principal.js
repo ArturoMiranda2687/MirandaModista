@@ -7,7 +7,7 @@ const divInicio = document.createElement("div")
 const tituloPrincipal = document.createElement("h1")
 const linea = document.createElement("div")
 const imgPrincipal = document.createElement("img")
-    imgPrincipal.src = "../media/logo/logo.png"
+    imgPrincipal.src = "./media/logo/logo.png"
     imgPrincipal.alt = "Logo empresa"
 const acotacion = document.createElement("p")
     acotacion.classList.add("acotacion")
@@ -27,12 +27,24 @@ divInicio.appendChild(acotacion)
 bienvenida.appendChild(mensajeBienvenida)
 
 ///////
+const cboton1 = document.createElement("div")
+    cboton1.classList.add("botpri")
 const botonl = document.createElement("a")
     botonl.href = "./lenceria.html"
     botonl.textContent = "Lencería"
 const tbotonl = document.createElement("p")
 
-direcciones.appendChild(botonl)
+const cboton2 = document.createElement("div")
+    cboton2.classList.add("botpri")
+const boton2 = document.createElement("a")
+    boton2.href = "./body.html"
+    boton2.textContent = "Bodies"
+const tboton2 = document.createElement("p")
+
+cboton1.appendChild(botonl)
+cboton2.appendChild(boton2)
+direcciones.appendChild(cboton1)
+direcciones.appendChild(cboton2)
 
 
 
@@ -49,3 +61,5 @@ cajaContacto.appendChild(h3contacto)
 h3contacto.appendChild(th3contacto)
 cajaContacto.appendChild(pcontacto)
 pcontacto.appendChild(tpcontacto)
+
+
