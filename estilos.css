@@ -147,9 +147,9 @@ nav li{
     
 }
 .galeria img{
-    width: 385px;
+    width: 80%;
     aspect-ratio: 1/1;
-    margin: 0 20px;
+    margin: 0 auto;
     object-fit: cover;
     object-position: center;
     border-radius: 15px;
