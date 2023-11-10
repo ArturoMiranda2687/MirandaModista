@@ -28,7 +28,7 @@ bienvenida.appendChild(mensajeBienvenida)
 
 ///////
 const botonl = document.createElement("a")
-    botonl.href = "../lenceria.html"
+    botonl.href = "./lenceria.html"
     botonl.textContent = "Lencería"
 const tbotonl = document.createElement("p")
 
