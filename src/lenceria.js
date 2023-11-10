@@ -1,7 +1,7 @@
 const lenceria = document.querySelector(".lenceria")
 
 class Modelo{
-    constructor({modelo,imagen1,imagen2,imagen3,imagen4,imagen5,imagen6,descripcion,tela,tela2,talla,precio,precio2}){
+    constructor({modelo,imagen1,imagen2,imagen3,imagen4,imagen5,imagen6,descripcion,tela,tela2,tela3,talla,precio,precio2}){
     this.modelo = modelo
     this.imagen1 = imagen1
     this.imagen2 = imagen2
@@ -12,23 +12,25 @@ class Modelo{
     this.descripcion = descripcion
     this.tela = tela
     this.tela2 = tela2
+    this.tela3 = tela3
     this.talla = talla
     this.precio= precio
     this.precio2= precio2
 }}
 
 let modelol1 = new Modelo({
-    modelo:"Blanco",
-    imagen1: "./media/lenceria/1.png",
-    imagen2: "",
+    modelo:"Panty negra",
+    imagen1: "./media/lenceria/pn1a.png",
+    imagen2: "./media/lenceria/pn1b.png",
     imagen3: "",
     imagen4: "",
     imagen5: "",
     imagen6: "",
-    descripcion: "Este modelo tiene resorte ornamentado que asegura mayor resistencia. El compuesto es de mesh y el puente de algodón para cuidar la higiene femenina en todo momento",
+    descripcion: "La mezcla de telas es mejor",
     talla:"S | M | G",
     tela:"Mesh",
     tela2:"lycra",
+    tela3:"algodón",
     precio:"$30.oo mxn",
     precio2:"3 x 80.oo mxn"
 })
@@ -77,8 +79,38 @@ let modelol4 = new Modelo({
   precio:"$30.oo mxn",
   precio2:"3 x 80.oo mxn"
 })
+let modelol5 = new Modelo({
+  modelo:"Panty blanca",
+  imagen1: "./media/lenceria/pb1a.png",
+  imagen2: "./media/lenceria/pb1b.png",
+  imagen3: "",
+  imagen4: "",
+  imagen5: "",
+  imagen6: "",
+  descripcion: "Este modelo tiene resorte ornamentado que asegura mayor resistencia. El compuesto es de mesh y el puente de algodón para cuidar la higiene femenina en todo momento",
+  talla:"S | M | G",
+  tela:"Mesh",
+  tela2:"lycra",
+  precio:"$30.oo mxn",
+  precio2:"3 x 80.oo mxn"
+})
+let modelol6 = new Modelo({
+  modelo:"Boxer blanco",
+  imagen1: "./media/lenceria/bb1a.png",
+  imagen2: "./media/lenceria/bb1b.png",
+  imagen3: "",
+  imagen4: "",
+  imagen5: "",
+  imagen6: "",
+  descripcion: "Este modelo tiene resorte ornamentado que asegura mayor resistencia. El compuesto es de mesh y el puente de algodón para cuidar la higiene femenina en todo momento",
+  talla:"S | M | G",
+  tela:"poliester",
+  tela2:"",
+  precio:"$30.oo mxn",
+  precio2:"3 x 80.oo mxn"
+})
 
-var productos =[modelol1,modelol2,modelol3,modelol4]
+var productos =[modelol1,modelol5,modelol6,modelol2,modelol3,modelol4]
 
 
 productos.forEach(function(producto) {
