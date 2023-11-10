@@ -143,6 +143,7 @@ productos.forEach(function(producto) {
           <h5>Tela</h5>
           <p>${producto.tela ? `<p>${producto.tela}</p>`:''}
           <p>${producto.tela2 ? `<p>${producto.tela2}</p>`:''}
+          <p>${producto.tela3 ? `<p>${producto.tela3}</p>`:''}
       </div>
       <div>
           <h5>Precio</h5>
