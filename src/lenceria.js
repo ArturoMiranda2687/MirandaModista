@@ -113,7 +113,11 @@ let modelol6 = new Modelo({
 var productos =[modelol1,modelol5,modelol6,modelol2,modelol3,modelol4]
 
 
-productos.forEach(function(producto) {
+function cargarProductoDiferido(index) {
+  if (index < productos.length) {
+    var producto = productos[index];
+
+
     var productoElement = document.createElement("div");
     productoElement.classList.add("modelo")
     productoElement.innerHTML = `
@@ -163,5 +167,11 @@ productos.forEach(function(producto) {
     var galeriaElement = productoElement.querySelector(".galeria");
     galeriaElement.style.width = numImagenes * 100 + "%";
   
-    lenceria.appendChild(productoElement);
-  });
+    lenceria.appendChild(productoElement); setTimeout(function () {
+      cargarProductoDiferido(index + 1);
+    }, 500); // 500 ms de retraso entre la carga de cada producto
+  }
+}
+
+// Inicia la carga del primer producto con un retraso
+cargarProductoDiferido(0);
