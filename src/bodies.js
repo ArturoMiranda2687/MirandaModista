@@ -2,8 +2,8 @@ const bodies = document.querySelector(".bodies")
 
 let modbod1 = new Modelo({
     modelo:"Body blanco",
-    imagen1: "./media/lenceria/pn1a.png",
-    imagen2: "./media/lenceria/pn1b.png",
+    imagen1: "./media/lenceria/bob1a.jpg",
+    imagen2: "./media/lenceria/bob1b.jpg",
     imagen3: "",
     imagen4: "",
     imagen5: "",
@@ -16,8 +16,24 @@ let modbod1 = new Modelo({
     precio:"$30.oo mxn",
     precio2:"3 x 80.oo mxn"
 })
+let modbod2 = new Modelo({
+  modelo:"Body blanco",
+  imagen1: "./media/lenceria/bob2a.jpg",
+  imagen2: "./media/lenceria/bob2b.jpg",
+  imagen3: "",
+  imagen4: "",
+  imagen5: "",
+  imagen6: "",
+  descripcion: "Un body ideal para momentos espaciales, inspirado en buenos momentos.",
+  talla:"S | M | G",
+  tela:"Mesh",
+  tela2:"lycra",
+  tela3:"algodón",
+  precio:"$30.oo mxn",
+  precio2:"3 x 80.oo mxn"
+})
 
-var productos = [modbod1]
+var productos = [modbod1,modbod2]
 
 function cargarProductoDiferido(index) {
     if (index < productos.length) {
